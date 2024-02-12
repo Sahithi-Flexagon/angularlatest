@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "preinstall": "echo This is preinstallation step",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint --force",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "echo This is postinstallation step"
   },
   "engines": {
     "node": "^18.13.0 || ^20.9.0"
