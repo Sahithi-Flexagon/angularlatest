@@ -9,8 +9,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint --force",
-    "prepare": "husky install",
-    "postinstall": "echo This is postinstallation step"
+    "prepare": "husky install"
   },
   "engines": {
     "node": "^18.13.0 || ^20.9.0"
@@ -31,8 +30,6 @@
     "rxjs": "^7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
-  },
-  "devDependencies": {
     "@angular-devkit/build-angular": "^17.0.7",
     "@angular/cli": "^17.0.7",
     "@angular/compiler-cli": "17.0.7",
@@ -46,8 +43,11 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "lint-staged": "^15.2.0",
-    "prettier": "^3.1.1",
     "typescript": "~5.2.2"
+  },
+  "devDependencies": {
+   "prettier": "^3.1.1",
+    "jest": "*"
   },
   "lint-staged": {
     "*.{ts,html,css,json,md}": "prettier --write"
