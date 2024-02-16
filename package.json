@@ -29,7 +29,7 @@
     "marked": "^11.1.0",
     "rxjs": "^7.4.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.2"
+    "zone.js": "~0.14.2",
     "@angular-devkit/build-angular": "^17.0.7",
     "@angular/cli": "^17.0.7",
     "@angular/compiler-cli": "17.0.7",
