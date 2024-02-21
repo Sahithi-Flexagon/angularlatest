@@ -46,7 +46,8 @@
     "@types/jasmine": "~4.3.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "jasmine-core": "~4.5.0"
+    "jasmine-core": "~4.5.0",
+    "lodash": "^4.17.21"
   },
   "lint-staged": {
     "*.{ts,html,css,json,md}": "prettier --write"
